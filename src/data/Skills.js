@@ -29,9 +29,24 @@ export const skills = [
                 image: "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
             },
             {
+                id: 1.5,
+                name: "Next JS",
+                image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC5UlEQVR4AbyUgWdCURTGs62QQAIJoKgI5C0BkwKgCCBKqGyEABREJABK/QsLQQHw9h8U0rASopCkoPS+na5bRq13e20dfnB993yf9849OsF6IpzEG9EkPoklseMs+VmTa5z8zs31SDwTNWJIbAmosOXaGr/7qNXcSpSJGQGNzHgP67XmEvFBKARuROG9JFHzF2JA4I8ZsN4qJWk2Fw8hXfrnMoF/Rj43Ew98WHAnytzzWD5iescAU+55fOvVSxfcbjfS6TQymQwkSbrY3OfzMa3f71cLUT3sCBcxvCBkDQ/V6/Xgcrl+1RYKBSwWCxSLRbUAX8ybr86tUABerVYLZrP5rDabzaLb7SKXy4lszFeC7W+IBBiPx5hMJlAUBaVSCXq9/kQbj8fRbreRTCZFZuGd0A0EA7DGqVQK6/Uaq9UKsVjsRBuJRFCv1xGNRkX3gm55TQCTyYRKpYJ9jUYjNnQ/tYFAAPl8HsFgUCAA89btRAN0Oh322S0WCwuzL1mWYbPZjlqv14tEIqH6Wji7qwMYDAZ25vF40O/32Xmj0YDRaGTndrsdoVAIDodDOMBSQwBGOBzGfD7HZrP5rr5qQTOEoihPi0UNouJABItG05pgE7EjJu26YDYKhvXeBMtX7GlgsRmX7PYoO+OuM98nwtiDWx+H+3N+0DQNGGMwDOPnTE3T5B7B51UAgiCgbVscx4F935EkCWhEiqJAkiTuJXxcBUAlyzKGYQC9dV3h+/4zlPw4J6ITAFSu62JZFtAjMKqqgtO6vXFQ8TkAqiiKQEu5bRvquoYoitxUzCVGVVUhTdNfP87zHPM8Y5omhGHILUa3yTF1h7o1jiO6roNt21xyfKshoflTt/q+R5ZlxA9chuRWS2ZZFoqiQFmWCIKAzvXUkt1uSh3HQRzHZEygaRqXKb3VlhMrkkZ4ngdd12l5uWz5rcGEWi/L8pckSR+CILz+STRjjL0zxl7+ZTi9Gs/rZ+L5N8AJA23K4ax1AAAAAElFTkSuQmCC",
+            },
+            {
                 id: 1.6,
-                name: "Redux",
+                name: "Redux toolkit",
                 image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+            },
+            {
+                id: 1.6,
+                name: "",
+                image: "https://recoiljs.org/img/logo--dark.svg",
+            },
+            {
+                id: 1.6,
+                name: "Auth.js",
+                image: "https://authjs.dev/img/etc/logo-sm.webp",
             },
             {
                 id: 1.7,
@@ -43,6 +58,11 @@ export const skills = [
                 name: "Material UI",
                 image: "https://avatars.githubusercontent.com/u/33663932?v=4",
             },
+            {
+                id: 1.8,
+                name: "GraphQL",
+                image: "https://graphql.org/_next/static/media/logo.ad338028.svg",
+            },
             
         ]
     },
@@ -50,6 +70,8 @@ export const skills = [
         id: 2,
         title: "Backend",
         skill: [
+           
+            
             {
                 id: 2.1,
                 name: "Node JS",
@@ -65,11 +87,37 @@ export const skills = [
                 name: "MongoDB",
                 image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
             },
+            
             {
                 id: 2.4,
-                name: "mongoosejs",
+                name: "postgreSQL",
+                image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+            },
+            {
+                id: 2.4,
+                name: "mongoose",
                 image: "https://mongoosejs.com/docs/images/mongoose5_62x30_transparent.png",
-            }
+            },
+            {
+                id: 2.4,
+                name: "node-postgres",
+                image: "",
+            },
+            {
+                id: 2.4,
+                name: "",
+                image: "https://www.prisma.io/docs/img/logo-white.svg",
+            },
+            {
+                id: 2.4,
+                name: "postman",
+                image: "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
+            },
+            {
+                id: 2.4,
+                name: "Zod",
+                image: "https://zod.dev/logo.svg",
+            },
             
         ]
     },
@@ -102,6 +150,11 @@ export const skills = [
                 id: 5.6,
                 name: "Render",
                 image: "https://global.discourse-cdn.com/business6/uploads/render/original/2X/1/11352202c8503f736bea5efb59684f678d7c860c.svg",
+            },
+            {
+                id: 5.6,
+                name: "cloudflare",
+                image: "https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg",
             },
         ]
     },
