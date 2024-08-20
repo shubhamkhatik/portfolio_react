@@ -21,7 +21,7 @@ function Projects() {
   return (
     <div name='projects' className={container}>
       <div className={wrapper}>
-        <div className={title}>Projects</div>
+        <div className={title}>Personal Projects</div>
         <div className={subTitle}>Here is My Recent Projects defining Experience </div>
         <div className={projectContainer}>
           {

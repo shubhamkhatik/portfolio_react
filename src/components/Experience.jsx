@@ -26,7 +26,7 @@ function Experience() {
         <div className={subTitle}>My Work Experience as a Software Developer</div>
         <div className={expContainer}>
           {
-            experiences.map((item, index) => {
+            experiences.slice().reverse().map((item, index) => {
               return (
                 <div key={index} className={expWrapper}>
                   <div className={companyWrapper}>
