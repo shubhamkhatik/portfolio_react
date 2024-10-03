@@ -2,6 +2,8 @@ import fullstackauth from "../assets/fullstackauth.png";
 import foodvilla from "../assets/foodvilla.png";
 import netflix from "../assets/netflix.png";
 import youtube from "../assets/youtube.png";
+import taskify from "../assets/taskify.png";
+import employee from "../assets/employee.png";
 
 export const projects = [
   {
@@ -59,6 +61,28 @@ export const projects = [
     desc: "🎬 Netflix application is integrated with TMDB to fetch movie details and with Firebase for authentication.",
     live: "https://netflix-123fe.web.app/",
     github: "https://github.com/shubhamkhatik/netflix-gpt",
+  },
+  {
+    id: 4,
+    img: taskify,
+    skills: [
+      "JavaScript",
+    ],
+    title: "Taskify",
+    desc: "TODO application with drag and drop functionality",
+    live: "https://taskify-typescript-one.vercel.app/",
+    github: "https://github.com/shubhamkhatik/taskify-typescript",
+  },
+  {
+    id: 5,
+    img: employee,
+    skills: [
+      "JavaScript",
+    ],
+    title: "Employee Management",
+    desc: "Add and delete employee",
+    live: "https://employee-database-management.vercel.app/",
+    github: "https://github.com/shubhamkhatik/employee-database-management",
   },
   
 ];
