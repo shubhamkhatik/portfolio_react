@@ -1,8 +1,23 @@
 import fullstackauth from "../assets/fullstackauth.png";
 import foodvilla from "../assets/foodvilla.png";
 import netflix from "../assets/netflix.png";
+import youtube from "../assets/youtube.png";
 
 export const projects = [
+  {
+    id: 3,
+    img: youtube,
+    skills: [
+      "React",
+      "Tailwind",
+      "Redux Toolkit",
+      "youtube api",
+    ],
+    title: "namaste youtube",
+    desc: "youtube like app which uses youtube api,feature like search, recommendation, comments and related videos",
+    live: "https://namaste-youtube-three.vercel.app/",
+    github: "https://github.com/shubhamkhatik/namaste-youtube",
+  },
   {
     id: 0,
     img: fullstackauth,
@@ -30,7 +45,7 @@ export const projects = [
     github: "https://github.com/shubhamkhatik/food-villa",
   },
   {
-    id: 0,
+    id: 2,
     img: netflix,
     skills: [
       "React",
@@ -41,8 +56,9 @@ export const projects = [
       "MongoDB",
     ],
     title: "Netflix  + TMDB movie",
-    desc: "pending",
+    desc: "🎬 Netflix application is integrated with TMDB to fetch movie details and with Firebase for authentication.",
     live: "https://netflix-123fe.web.app/",
     github: "https://github.com/shubhamkhatik/netflix-gpt",
   },
+  
 ];
