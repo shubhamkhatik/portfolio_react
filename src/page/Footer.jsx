@@ -5,6 +5,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 const footerContainer = "bg-gray-950 text-cyan-600";
 const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
 const logo = `mt-2 md:mt-4 text-xl font-semibold text-amber-600 `;
+const email = `text-xl font-semibold text-amber-500 `;
 const socialMediaWrapper = `flex justify-center items-center gap-1`;
 const socialMediaIcon = `ml-4 md:mx-5 hover:text-cyan-400 text-2xl`;
 const copyright = ` mb-5 text-light text-amber-500 flex flex-col md:flex-row md:gap-3 justify-center items-center`;
@@ -14,6 +15,7 @@ function Footer() {
     <footer className={footerContainer}>
       <div className={footerWrapper}>
         <div className={logo}> {Bio.name}</div>
+        <div className={email}> Email : {Bio.email}</div>
         <div className={socialMediaWrapper}>
           <a className={socialMediaIcon} href={Bio.github} target="_blank">
             <FaGithub />

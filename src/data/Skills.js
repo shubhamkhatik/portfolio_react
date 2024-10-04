@@ -159,6 +159,11 @@ export const skills = [
                 name: "cloudflare",
                 image: "https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg",
             },
+            {
+                id: 5.8,
+                name: "AWS",
+                image: "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+            },
         ]
     },
 

@@ -3,6 +3,7 @@ import profileimg from "../assets/profileimg.jpg";
 
 export const Bio = {
     name: "Shubham Khatik",
+    email:"shubhamkhatik2012@gmail.com",
     profileImage: profileimg,
     roles: [
         "Frontend Developer. ",
@@ -12,7 +13,7 @@ export const Bio = {
         "Problem Solver.",
         "Programmer. ",
     ],
-    description: "As a Frontend Developer, I focus on creating seamless, user-friendly interfaces with a variety of modern web technologies. My passion lies in translating design concepts into functional, high-quality code, ensuring a smooth and enjoyable user experience on every project",
+    description: "As a Full-Stack Developer, I specialize in developing responsive front-end interfaces and scalable backend systems.. I’m skilled at translating design concepts into clean, functional code, ensuring seamless integration between the front and backend for optimized performance. My focus is on building efficient, user-centric applications that are easy to maintain and deliver a smooth user experience",
     resumeview: "https://drive.google.com/file/d/1JXS0Tt2BlEuJXyHNeBfmZGpklUAKdpKd/view?usp=drive_link",
     resumedownload:resume,
     github: "https://github.com/shubhamkhatik",
