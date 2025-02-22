@@ -84,5 +84,16 @@ export const projects = [
     live: "https://employee-database-management.vercel.app/",
     github: "https://github.com/shubhamkhatik/employee-database-management",
   },
+  {
+    id: 555,
+    img: employee,
+    skills: [
+      "JavaScrwhhw whhgwghw ipt",
+    ],
+    title: "Empshubham kahahement",
+    desc: "Add and delete employee Add and delete employee Add and delete employee Add and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employee",
+    live: "https://employee-database-management.vercel.app/",
+    github: "https://github.com/shubhamkhatik/employee-database-management",
+  },
   
 ];

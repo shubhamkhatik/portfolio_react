@@ -1,4 +1,5 @@
 import { projects } from '../data/Projects.js'
+import HoverPopup from './HoverComponent.jsx';
 
 const container = 'bg-gradient-to-t from-slate-950 to-slate-900 text-gray-100 py-20 lg:px-10 px-5';
 const wrapper = 'flex flex-col justify-center items-center gap-6';
@@ -45,7 +46,8 @@ function Projects() {
                     <div className={nameStyle}>{item.title} </div>
                     <div className={dateStyle} >{item.date} </div>
                   </div>
-                  <div className=''>  {item.desc}  </div>
+                  {/* <div className=''>  {item.desc}  </div> */}
+                  <HoverPopup text={item.desc} />
                   <div className={btnWrapper}>
                     <button className={btnSytle}> <a href={item.live} target='_blank'>Live Demo </a></button>
                     <button className={btnSytle}> <a href={item.github} target='_blank'>Github Repo</a></button>
