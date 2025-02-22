@@ -15,7 +15,7 @@ const HoverPopup = ({ text }) => {
       <div
         className={`absolute bg-gray-800 text-gray-200 p-3 rounded shadow-lg border border-cyan-500 w-4/5 max-h-40 overflow-y-auto 
           left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10
-          transition-all duration-300 ease-in-out 
+          transition-all duration-300 ease-in-out hide-scrollbar
           ${
             hover
               ? "opacity-100 scale-100"
