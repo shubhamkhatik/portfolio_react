@@ -43,11 +43,11 @@ export const experiences = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         company: "new one",
         date:"sep 2022 - Aug 2024" ,
         jobrole: "frontend developer",
-        desc:"implement and supprt product development",
+        desc:"implement and supprt product development loren ipsum prt product development loren ipsum prt product development loren ipsum prt product development loren ipsum prt product development loren   en ipsum prt product development loren en ipsum prt product development lorenv en ipsum prt product development loren en ipsum prt product development loren ven ipsum prt product development loren v en ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development lorenen ipsum prt product development loren ipsum prt product development loren ipsumprt product development loren ipsum",
         skills: [
             "ReactJS",
             "Redux Toolkit",
