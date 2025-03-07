@@ -4,17 +4,22 @@ import netflix from "../assets/netflix.png";
 import youtube from "../assets/youtube.png";
 import taskify from "../assets/taskify.png";
 import employee from "../assets/employee.png";
+import devtinder from "../assets/devtinder.png";
 
 export const projects = [
   {
+    id: 555,
+    img: devtinder,
+    skills: ["React", "Tailwind", "Redux Toolkit", "ExpressJS", "MongoDB"],
+    title: "DevTinder",
+    desc: "DevTinder is a social networking platform for developers to connect with other developers and share their knowledge and experience.",
+    live: "https://devtinder-frontend-pearl.vercel.app/login",
+    github: "https://github.com/shubhamkhatik/devtinder_frontend",
+  },
+  {
     id: 3,
     img: youtube,
-    skills: [
-      "React",
-      "Tailwind",
-      "Redux Toolkit",
-      "youtube api",
-    ],
+    skills: ["React", "Tailwind", "Redux Toolkit", "youtube api"],
     title: "namaste youtube",
     desc: "youtube like app which uses youtube api,feature like search, recommendation, comments and related videos",
     live: "https://namaste-youtube-three.vercel.app/",
@@ -65,9 +70,7 @@ export const projects = [
   {
     id: 4,
     img: taskify,
-    skills: [
-      "JavaScript",
-    ],
+    skills: ["JavaScript"],
     title: "Taskify",
     desc: "TODO application with drag and drop functionality",
     live: "https://taskify-typescript-one.vercel.app/",
@@ -76,24 +79,10 @@ export const projects = [
   {
     id: 5,
     img: employee,
-    skills: [
-      "JavaScript",
-    ],
+    skills: ["JavaScript"],
     title: "Employee Management",
     desc: "Add and delete employee",
     live: "https://employee-database-management.vercel.app/",
     github: "https://github.com/shubhamkhatik/employee-database-management",
   },
-  {
-    id: 555,
-    img: employee,
-    skills: [
-      "JavaScrwhhw whhgwghw ipt",
-    ],
-    title: "Empshubham kahahement",
-    desc: "Add and delete employee Add and delete employee Add and delete employee Add and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employeeAdd and delete employee",
-    live: "https://employee-database-management.vercel.app/",
-    github: "https://github.com/shubhamkhatik/employee-database-management",
-  },
-  
 ];
