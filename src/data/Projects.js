@@ -5,6 +5,7 @@ import youtube from "../assets/youtube.png";
 import taskify from "../assets/taskify.png";
 import employee from "../assets/employee.png";
 import devtinder from "../assets/devtinder.png";
+import todo from "../assets/todo.png";
 
 export const projects = [
   {
@@ -84,5 +85,23 @@ export const projects = [
     desc: "Add and delete employee",
     live: "https://employee-database-management.vercel.app/",
     github: "https://github.com/shubhamkhatik/employee-database-management",
+  },
+  {
+    id: 6,
+    img: todo,
+    skills: [
+      "React",
+      "Tailwind",
+      "Redux Toolkit",
+      "React Router",
+      "ExpressJS",
+      "NodeJS",
+      "JWT",
+      "MongoDB",
+    ],
+    title: "TODO-APplication",
+    desc: "CURD operation with JWT authentication and pagination on Backend side",
+    live: "https://todo-app-fullstack-client.vercel.app/",
+    github: "https://github.com/shubhamkhatik/todo-app-fullstack-client",
   },
 ];
