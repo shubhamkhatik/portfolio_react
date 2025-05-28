@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import PropTypes from "prop-types";
 
 const HoverPopup = ({ text }) => {
   const [hover, setHover] = useState(false);
@@ -28,6 +29,9 @@ const HoverPopup = ({ text }) => {
       </div>
     </div>
   );
+};
+HoverPopup.propTypes = {
+  text: PropTypes.string.isRequired,
 };
 
 export default HoverPopup;

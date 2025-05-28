@@ -1,4 +1,3 @@
-import React from 'react'
 import { skills } from '../data/Skills';
 
 const container = `bg-gradient-to-t from-slate-950 to-slate-900 text-gray-100 lg:pt-6 flex flex-wrap`;
@@ -10,7 +9,7 @@ const skillWrapper = 'flex flex-col justify-center items-center bg-gray-950 py-4
 const skillTitle = 'text-amber-600 lg:text-2xl text-xl font-semibold text-center my-3';
 const skillList = 'flex flex-wrap gap-3 justify-center items-center px-3 py-4';
 const oneSkillStyle = 'flex items-center flex-wrap p-2 border-2 border-gray-700 rounded-xl gap-2';
-const skillImage = 'h-8 w-auto';
+// const skillImage = 'h-8 w-auto';
 const skillName = 'text-gray-300';
 
 function Skills() {
@@ -27,10 +26,10 @@ function Skills() {
                   <div className={skillTitle}>{oneSection.title}</div>
                   <div className={skillList}>
                     {
-                      oneSection.skill.map((item) => (
-                        <div className={oneSkillStyle} key={item.id}>
-                          <img className={skillImage} src={item.image} alt="" />
-                          <span className={skillName}>{item.name}</span>
+                      oneSection.skill.map((item,index) => (
+                        <div className={oneSkillStyle} key={index}>
+                          {/* <img className={skillImage} src={item.image} alt="" /> */}
+                          <span className={skillName}>{item}</span>
                         </div>
                       ))
                     }

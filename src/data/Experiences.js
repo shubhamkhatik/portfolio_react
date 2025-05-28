@@ -26,20 +26,14 @@ experience.
     date: "Feb 2022 - sep 2022",
     jobrole: "React.js developer",
     desc: `
-        ● Developed reusable UI components using React.js and Material-UI, ensuring a modern
-and responsive design.
-● Enhanced user experience (UX) with optimized UI layouts and interactive elements.
-● Collaborated on UI debugging, identifying and fixing inconsistencies to improve visual
-and functional accuracy.
-● Worked closely with client teams to ensure smooth integration and optimized user
-experience.
+       ● Designed and developed 30+ reusable, scalable UI components with React.js and
+Material-UI, improving development velocity by 20%.
+● Enhanced user experience (UX) with optimized UI layouts and interactive
+elements.Collaborated with cross-functional teams to debug UI inconsistencies, reducing
+user-reported bugs by 40%.
+● Worked with client teams to ensure smooth integration and optimized user experience.
 ● Built a multi-role e-commerce system with a web app, Merchant Panel, Distributor
 Panel, and Admin Panel.
-● Implemented product listing, purchasing workflows, and secure authentication for
-seamless transactions.
-
-● Developed role-based access control (RBAC) for merchants, distributors, and admins to
-manage inventory and sales.
         `,
     skills: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "Formik"],
   },
@@ -49,16 +43,17 @@ manage inventory and sales.
     date: "oct-2022 - present",
     jobrole: "frontend developer",
     desc: `
-        ● Developed a full-stack HR management application with Next.js (frontend) and Node.js, 
-          Express.js, MongoDB (backend).
-        ● Integrated Google APIs for Maps and OAuth, Firebase for OTP authentication, AWS 
-          SES for email notifications, and Razorpay for secure payment processing.
-        ● Optimized performance using lazy loading, authentication middleware, and 
-          role-based access control (RBAC) for secure access management.
-        ● Implemented core HR features, allowing users to post resumes, add jobs, and manage 
-          applications efficiently.
-        ● Enhanced user experience (UX) with infinite scrolling and pagination, ensuring 
-          smooth content navigation and interaction.
+        ● Built and deployed a full-stack HR management application using Next.js and Node.js,
+reducing onboarding time by 25%.
+● Integrated third-party APIs (Google Maps, JWT, Firebase OTP, Razorpay, AWS SES) to
+streamline user verification and secure transactions.
+● Increased React application performance by 30% by optimizing Core Web Vitals through
+lazy loading, dynamic imports, and performance optimization. Implemented RBAC for
+improved security and user access control.
+● Designed an intuitive UI/UX with infinite scrolling and smart pagination, boosting user
+engagement metrics by 20%.
+● Experienced in Agile development, cross-functional collaboration, and modern
+engineering practices, including CI/CD pipelines and code reviews.
         `,
     skills: [
       "ReactJS",

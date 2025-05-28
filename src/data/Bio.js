@@ -1,24 +1,29 @@
-import resume from "../assets/resume.pdf"
+import resume from "../assets/resume.pdf";
 import profileimg from "../assets/profileimg.jpg";
 
 export const Bio = {
-    name: "Shubham Khatik",
-    email:"shubhamkhatik2012@gmail.com",
-    profileImage: profileimg,
-    roles: [
-        "Frontend Developer. ",
-        "Backend Developer. ",
-        "Full Stack Developer. ",
-        "MERN stack Developer. ",
-        "Problem Solver.",
-        "Programmer. ",
-    ],
-    description: "As a Full-Stack Developer, I specialize in developing responsive front-end interfaces and scalable backend systems.. I’m skilled at translating design concepts into clean, functional code, ensuring seamless integration between the front and backend for optimized performance. My focus is on building efficient, user-centric applications that are easy to maintain and deliver a smooth user experience",
-    resumeview: "https://drive.google.com/file/d/1eKOWTp5quUohGGLYHTvCIU8ATGslBPP0/view?usp=sharing",
-    resumedownload:resume,
-    github: "https://github.com/shubhamkhatik",
-    linkedin: "https://www.linkedin.com/in/shubhamkhatik/",
-    x : "https://twitter.com/shubham_ktk",
-    devfolio:"https://devfolio.co/@shubhamkhatik/readme-md",
-
+  name: "Shubham Khatik",
+  email: "shubhamkhatik2012@gmail.com",
+  profileImage: profileimg,
+  roles: [
+    "Frontend Developer. ",
+    "Backend Developer. ",
+    "Full Stack Developer. ",
+    "MERN stack Developer. ",
+    "Problem Solver.",
+    "Programmer. ",
+  ],
+  description: `Full-stack Developer with 3+ years of experience building scalable, high-performance web
+applications using React.js, Next.js, Node.js, and MongoDB. Expertise in integrating DevOps
+practices and AI solutions. Proven track record of improving application performance by 30 %+
+and enhancing user experiences through optimized, modern interfaces.
+Skilled in Agile methodologies, RESTful APIs, and cloud services. Passionate about leveraging
+emerging technologies to drive innovation and efficiency in software development.`,
+  resumeview:
+    "https://drive.google.com/file/d/1eKOWTp5quUohGGLYHTvCIU8ATGslBPP0/view?usp=sharing",
+  resumedownload: resume,
+  github: "https://github.com/shubhamkhatik",
+  linkedin: "https://www.linkedin.com/in/shubhamkhatik/",
+  x: "https://twitter.com/shubham_ktk",
+  devfolio: "https://devfolio.co/@shubhamkhatik/readme-md",
 };

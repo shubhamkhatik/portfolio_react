@@ -1,7 +1,7 @@
 import { ReactTyped } from "react-typed";
 import {
   FaEye,
-  FaFileDownload,
+  // FaFileDownload,
   FaGithub,
   FaLinkedin,
   FaTwitter,
@@ -75,7 +75,7 @@ function About() {
               <FaEye className="mr-2" /> View Resume
             </a>
           </button>
-          <button className={btnStyle}>
+          {/* <button className={btnStyle}>
             <a
               className={linkStyle}
               href={Bio.resumedownload}
@@ -84,7 +84,7 @@ function About() {
               <FaFileDownload className="mr-2" />
               Download PDF
             </a>
-          </button>
+          </button> */}
         </div>
 
         <div className={socialMediaWrapper}>

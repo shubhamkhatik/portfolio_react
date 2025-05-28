@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { experiences } from "../data/Experiences.js";
 import HoverPopup from "./HoverComponent.jsx";
 
