@@ -6,6 +6,7 @@ import taskify from "../assets/taskify.png";
 import employee from "../assets/employee.png";
 import devtinder from "../assets/devtinder.png";
 import todo from "../assets/todo.png";
+import log from "../assets/log.png";
 
 export const projects = [
   {
@@ -99,9 +100,38 @@ export const projects = [
       "JWT",
       "MongoDB",
     ],
-    title: "TODO-APplication",
+    title: "TODO-Application",
     desc: "CURD operation with JWT authentication and pagination on Backend side",
     live: "https://todo-app-fullstack-client.vercel.app/",
     github: "https://github.com/shubhamkhatik/todo-app-fullstack-client",
+  },
+  {
+    id: 7,
+    img: log,
+    skills: [
+      "React",
+      "Vite",
+      "Axios",
+      "Socket.IO",
+      "Recharts",
+      "ExpressJS",
+      "NodeJS",
+      "Joi",
+      "Docker",
+      "Docker Compose",
+      "Docker Hub",
+      "Render",
+      "Vercel",
+      "REST API",
+      "WebSockets",
+      "File System (fs)",
+      "Jest",
+      "Postman",
+      "Environment Variables",
+    ],
+    title: "log-query-system",
+    desc: "Log ingestion with real-time updates, filtering, analytics, and full Docker deployment.",
+    live: "https://log-query-system.vercel.app/",
+    github: "https://github.com/shubhamkhatik/log-query-system",
   },
 ];
