@@ -7,6 +7,7 @@ import employee from "../assets/employee.png";
 import devtinder from "../assets/devtinder.png";
 import todo from "../assets/todo.png";
 import log from "../assets/log.png";
+import dashboard from "../assets/dashboard.png";
 
 export const projects = [
   {
@@ -133,5 +134,32 @@ export const projects = [
     desc: "Log ingestion with real-time updates, filtering, analytics, and full Docker deployment.",
     live: "https://log-query-system.vercel.app/",
     github: "https://github.com/shubhamkhatik/log-query-system",
+  },
+  {
+    id: 8,
+    img: dashboard,
+    skills: [
+      "Next.js",
+      "App Router",
+      "React",
+      "Tailwind CSS",
+      "Server Components",
+      "Client Components",
+      "Dynamic Routing",
+      "Layout.tsx",
+      "Metadata API",
+      "Loading UI",
+      "Error Boundaries",
+      "Authentication",
+      "Data Fetching",
+      "PostgreSQL",
+      "Vercel",
+      "TypeScript",
+      "clsx",
+    ],
+    title: "nextjs-dashboard-app",
+    desc: "Full-stack dashboard app using Next.js App Router with Tailwind, authentication, dynamic routing, and modular components.",
+    live: "https://nextjs-dashboard-ten-kappa-18.vercel.app/",
+    github: "https://github.com/shubhamkhatik/nextjs-dashboard",
   },
 ];
