@@ -13,12 +13,7 @@ export const Bio = {
     "Problem Solver.",
     "Programmer. ",
   ],
-  description: `Full-stack Developer with 3+ years of experience building scalable, high-performance web
-applications using React.js, Next.js, Node.js, and MongoDB. Expertise in integrating DevOps
-practices and AI solutions. Proven track record of improving application performance by 30 %+
-and enhancing user experiences through optimized, modern interfaces.
-Skilled in Agile methodologies, RESTful APIs, and cloud services. Passionate about leveraging
-emerging technologies to drive innovation and efficiency in software development.`,
+  description: `Results-driven Frontend Developer with 4 years of experience specializing in React.js, Next.js, and Node.js development. Proven track record of improving application performance by 30%, reducing onboarding time by 25%, and building scalable web applications serving 100+ users. Expert in frontend system design, backend architecture, and DevOps practices. Passionate about creating high-performance, user-centric applications with modern JavaScript frameworks and cloud technologies.`,
   resumeview:
     "https://drive.google.com/file/d/1eKOWTp5quUohGGLYHTvCIU8ATGslBPP0/view?usp=sharing",
   resumedownload: resume,

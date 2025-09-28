@@ -39,21 +39,15 @@ Panel, and Admin Panel.
   },
   {
     id: 4,
-    company: "RDIT Services Pvt Ltd",
+    company: "PreDrag System LLP ",
     date: "oct-2022 - present",
     jobrole: "frontend developer",
     desc: `
-        ● Built and deployed a full-stack HR management application using Next.js and Node.js,
-reducing onboarding time by 25%.
-● Integrated third-party APIs (Google Maps, JWT, Firebase OTP, Razorpay, AWS SES) to
-streamline user verification and secure transactions.
-● Increased React application performance by 30% by optimizing Core Web Vitals through
-lazy loading, dynamic imports, and performance optimization. Implemented RBAC for
-improved security and user access control.
-● Designed an intuitive UI/UX with infinite scrolling and smart pagination, boosting user
-engagement metrics by 20%.
-● Experienced in Agile development, cross-functional collaboration, and modern
-engineering practices, including CI/CD pipelines and code reviews.
+        ● Architected and deployed a full-stack HR management platform using Next.js and Node.js, reducing employee onboarding time by 25%.
+● Integrated Google Maps API, JWT authentication, Firebase OTP, Razorpay payment gateway, and AWS SES, boosting feature set and increasing user engagement by 20%.
+● Enhanced React app performance by 30% via Core Web Vitals optimizations, employing lazy loading and code splitting.
+● Designed a responsive UI/UX with infinite scrolling and intelligent pagination, elevating user engagement by 20% and cutting page load times by 40%.
+● Collaborated within an Agile team of 8+, leading daily standups, sprint planning, and code reviews to deliver high-quality releases.
         `,
     skills: [
       "ReactJS",
