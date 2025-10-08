@@ -12,7 +12,6 @@ const skillTitle =
 const skillList = "flex flex-wrap gap-3 justify-center items-center px-3 py-4";
 const oneSkillStyle =
   "flex items-center flex-wrap p-2 border-2 border-gray-700 rounded-xl gap-2";
-// const skillImage = 'h-8 w-auto';
 const skillName = "text-gray-300";
 
 function Skills() {
@@ -27,7 +26,10 @@ function Skills() {
                 <div className={skillTitle}>{oneSection.title}</div>
                 <div className={skillList}>
                   {oneSection.skill.map((item, index) => (
-                    <div className={oneSkillStyle} key={index}>
+                    <div
+                      className={`${oneSkillStyle} transition duration-300 hover:border-lime-400 hover:bg-gray-900 hover:scale-105`}
+                      key={index}
+                    >
                       <span className={skillName}>{item}</span>
                     </div>
                   ))}

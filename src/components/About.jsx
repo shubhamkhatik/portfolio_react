@@ -95,7 +95,7 @@ function About() {
             target="_blank"
             rel="noopener noreferrer"
             className={socialMediaIcon}
-            title="Twitter"
+            title="X"
           >
             <FaTwitter />
           </a>
