@@ -1,11 +1,5 @@
 import { ReactTyped } from "react-typed";
-import {
-  FaEye,
-  // FaFileDownload,
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaEye, FaGithub, FaLinkedin, FaTwitter,FaMailBulk } from "react-icons/fa";
 import { Bio } from "../data/Bio";
 
 const container =
@@ -75,16 +69,6 @@ function About() {
               <FaEye className="mr-2" /> View Resume
             </a>
           </button>
-          {/* <button className={btnStyle}>
-            <a
-              className={linkStyle}
-              href={Bio.resumedownload}
-              download="shubham_khatik_frontend.pdf"
-            >
-              <FaFileDownload className="mr-2" />
-              Download PDF
-            </a>
-          </button> */}
         </div>
 
         <div className={socialMediaWrapper}>
@@ -114,6 +98,15 @@ function About() {
             title="Twitter"
           >
             <FaTwitter />
+          </a>
+          <a
+            href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${Bio.email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={socialMediaIcon}
+            title="Email"
+          >
+            <FaMailBulk />
           </a>
         </div>
       </div>

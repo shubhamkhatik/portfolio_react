@@ -2,20 +2,20 @@ export const skills = [
   {
     id: 1,
     title: "Languages",
-    skill: ["HTML", "CSS", "JavaScript", "TypeScript", "Python"],
+    skill: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3"],
   },
   {
     id: 2,
     title: "Frontend",
     skill: [
-      "React JS",
-      "Next JS",
-      "Redux toolkit",
+      "React.js",
+      "Next.js",
+      "Redux Toolkit",
       "Recoil",
-      "Auth.js",
       "Tailwind CSS",
-      "Material UI",
-      "UI Library",
+      "UI-library",
+      "Responsive Design",
+      "React Testing Library",
     ],
   },
   {
@@ -31,10 +31,10 @@ export const skills = [
       "Prisma",
       "GraphQL",
       "Zod",
-      "Yup",
-      "REST",
+      "REST APIs",
       "GraphQL",
       "WebSockets",
+      "Jest"
     ],
   },
 
@@ -48,14 +48,23 @@ export const skills = [
       "Git",
       "GitHub",
       "Postman",
+      "CI/CD",
+      "Docker",
+      "Vercel",
       "Turborepo (Monorepo Management)",
     ],
   },
   {
     id: 6,
-    title: "Testing",
+    title: "Additional Skills",
     skill: [
-     "Unit", "API", "E2E", "Performance", "Jest", "React Testing Library"
+      "Agile/Scrum (sprint planning)",
+      "Test-Driven Development",
+      "Code Reviews",
+      "Performance Optimization",
+      "Security",
+      "Client-side Data Management",
+      "Frontend System Design",
     ],
   },
 ];

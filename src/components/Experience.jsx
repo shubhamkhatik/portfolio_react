@@ -1,5 +1,4 @@
 import { experiences } from "../data/Experiences.js";
-import HoverPopup from "./HoverComponent.jsx";
 
 const container =
   "bg-gradient-to-b from-slate-950 to-slate-900 text-gray-100 py-20 px-10";
@@ -42,7 +41,6 @@ function Experience() {
                       <div className={dateStyle}> {item.date} </div>
                     </div>
                   </div>
-                 <HoverPopup text={item.desc} />
 
                   <div className={skillContainer}>
                     <div className={skillTitle}>Skills :- </div>

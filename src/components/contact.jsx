@@ -1,27 +1,42 @@
-const container = `bg-gradient-to-b from-slate-950 to-slate-900 text-gray-200 p-2`;
-const wrapper = `flex flex-col gap-3 justify-center items-center my-3`;
+import { FaTwitter, FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { Bio } from "../data/Bio";
 const title = `text-center text-amber-600 lg:text-4xl text-3xl font-bold`;
 const titleDesc = `text-center text-xl`;
-const contactForm = `flex flex-col gap-3 bg-gray-950 p-5 rounded-lg lg:w-1/2 w-full `;
-const contactTitle = "text-amber-600 font-semibold ml-2 text-xl";
-const inputStyle = `bg-gray-700 h-12 p-3 rounded-lg`;
-const inputStyleTextArea = "bg-gray-700 p-3 rounded-lg";
-const sendButton = `text-gray-950 font-semibold h-12 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 shadow hover:shadow-cyan-400`;
+const footerContainer = "bg-gray-950 text-cyan-600";
+const footerWrapper = `flex flex-col justify-center items-center gap-5 p-4`;
+const logo = `mt-2 md:mt-4 text-xl font-semibold text-amber-600 `;
+const email = `text-xl font-semibold text-amber-500 `;
+const socialMediaWrapper = `flex justify-center items-center gap-1`;
+const socialMediaIcon = `ml-4 md:mx-5 hover:text-cyan-400 text-2xl`;
+const copyright = ` mb-5 text-light text-amber-500 flex flex-col md:flex-row md:gap-3 justify-center items-center`;
 
 function Contact() {
-  const testkey = "awngyplb";
-
   return (
-    <>
-      <div name="contact" className={container}>
-        <div className={wrapper}>
-          <div className={title}>Contact Me</div>
-          <div className={titleDesc}>
-            Feel free to reach out to me for any queries
-          </div>
-        </div>
+    <footer name="contact" className={footerContainer}>
+      <div className={title}>Contact Me</div>
+      <div className={titleDesc}>
+        Feel free to reach out to me for any queries
       </div>
-    </>
+      <div className={footerWrapper}>
+        <div className={logo}> {Bio.name}</div>
+        <div className={email}> Email : {Bio.email}</div>
+        <div className={socialMediaWrapper}>
+          <a className={socialMediaIcon} href={Bio.github} target="_blank">
+            <FaGithub />
+          </a>
+          <a className={socialMediaIcon} href={Bio.linkedin} target="_blank">
+            <FaLinkedin />
+          </a>
+          <a className={socialMediaIcon} href={Bio.x} target="_blank">
+            <FaTwitter />
+          </a>
+          <a href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${Bio.email}`} target="_blank" className={socialMediaIcon}>
+            <FaMailBulk />
+          </a>
+        </div>
+        <div className={copyright}></div>
+      </div>
+    </footer>
   );
 }
 
